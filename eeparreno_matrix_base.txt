@@ -1,0 +1,238 @@
+############# System and device information #######
+Hostname information:
+   Static hostname: mtrx-node04pd.dcm.senecacollege.ca
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: e112b90954bb49b2ae4615f87f13d4f0
+           Boot ID: f595515b29a543fd8b6830b7bcdf514d
+    Virtualization: microsoft
+  Operating System: CentOS Linux 7 (Core)
+       CPE OS Name: cpe:/o:centos:centos:7
+            Kernel: Linux 3.10.0-1127.18.2.el7.x86_64
+      Architecture: x86-64
+*******************************************************************
+Disk/partition size, usage, and mount points:
+Filesystem               1K-blocks      Used  Available Use% Mounted on
+devtmpfs                   1910388         0    1910388   0% /dev
+tmpfs                      1921932         4    1921928   1% /dev/shm
+tmpfs                      1921932     10724    1911208   1% /run
+tmpfs                      1921932         0    1921932   0% /sys/fs/cgroup
+/dev/mapper/centos-root   52209664   8954340   43255324  18% /
+/dev/sda2                  1038336    327032     711304  32% /boot
+/dev/sda1                   204580     16260     188320   8% /boot/efi
+/dev/mapper/centos-tmp     5232640    384420    4848220   8% /tmp
+mtrx-home01pd:/home     2096124416 247906304 1848218112  12% /home
+tmpfs                       384388         0     384388   0% /run/user/56770
+tmpfs                       384388         0     384388   0% /run/user/57025
+tmpfs                       384388         0     384388   0% /run/user/55173
+tmpfs                       384388         0     384388   0% /run/user/59317
+tmpfs                       384388         0     384388   0% /run/user/55308
+tmpfs                       384388         0     384388   0% /run/user/53094
+tmpfs                       384388         0     384388   0% /run/user/58775
+tmpfs                       384388         0     384388   0% /run/user/50942
+tmpfs                       384388         0     384388   0% /run/user/52417
+tmpfs                       384388         0     384388   0% /run/user/52498
+tmpfs                       384388         0     384388   0% /run/user/56763
+tmpfs                       384388         0     384388   0% /run/user/58833
+tmpfs                       384388         0     384388   0% /run/user/54163
+tmpfs                       384388         0     384388   0% /run/user/58417
+tmpfs                       384388         0     384388   0% /run/user/58961
+tmpfs                       384388         0     384388   0% /run/user/55388
+tmpfs                       384388         0     384388   0% /run/user/52503
+tmpfs                       384388         0     384388   0% /run/user/55177
+tmpfs                       384388         0     384388   0% /run/user/58379
+tmpfs                       384388         0     384388   0% /run/user/55350
+tmpfs                       384388         0     384388   0% /run/user/59068
+*******************************************************************
+OS version/release level, and netmask for each active device:
+3.10.0-1127.18.2.el7.x86_64 #1 SMP Sun Jul 26 15:27:06 UTC 2020
+*******************************************************************
+Date the OS was first installed:
+Install Date: Fri 03 Nov 2017 01:47:01 PM EDT
+*******************************************************************
+Hardware details:
+*******************************************************************
+List of active shell users:
+ 15:09:10 up 11:41, 12 users,  load average: 0.01, 0.02, 0.05
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+rbhola2  pts/0    10.29.44.148     15:07    1:02   0.12s  0.00s /home/uli101/assign1
+zhonderi pts/1    10.29.35.27      12:59    4:06   0.70s  0.70s -bash
+anguyen8 pts/2    10.29.62.144     14:12    1:02   0.15s  0.15s -bash
+eeparren pts/3    10.29.35.57      14:58    6.00s  0.10s  0.01s w
+hong.hua pts/4    10.102.109.179   13:28    1:39m  0.12s  0.12s -bash
+hong.hua pts/6    10.102.109.179   13:29    1:39m  0.12s  0.12s -bash
+balphons pts/7    10.29.17.247     13:01    1:53m  0.26s  0.26s -bash
+mpowell1 pts/8    10.29.24.144     14:29    1:50   1.24s  0.00s /home/uli101/assign1
+xliu295  pts/9    10.29.14.6       14:21   47:48   0.07s  0.07s -bash
+pyang9   pts/10   10.29.16.168     10:40    4:01m  0.19s  0.19s -bash
+bparsa2  pts/14   10.29.28.50      12:14    2:04m  0.11s  0.11s -bash
+creeve1  pts/15   10.29.6.202      12:05    2:58m  0.10s  0.10s -bash
+######################### Networking information ###############
+*******************************************************************
+network devices (names):
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 00:1d:d8:b7:1c:94 brd ff:ff:ff:ff:ff:ff
+*******************************************************************
+IP address, broasdcast, and netmask for each active device:
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet 10.102.108.5/32 scope global lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:1d:d8:b7:1c:94 brd ff:ff:ff:ff:ff:ff
+    inet 10.102.108.14/26 brd 10.102.108.63 scope global noprefixroute eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::21d:d8ff:feb7:1c94/64 scope link 
+       valid_lft forever preferred_lft forever
+############ Security and Firewall  information #############
+*******************************************************************
+Security mode (SELinux status):
+SELinux status:                 disabled
+*******************************************************************
+Firewall configuration and services (firewalld):
+################ Repositories and package information #########
+*******************************************************************
+List of active repositories
+*******************************************************************
+Number of software packages installed:
+0
+*******************************************************************
+Names of software packages installed:
+################## Information on machine's services #######
+*******************************************************************
+Dns server configured (used for the local resolver):
+# Generated by NetworkManager
+search dcm.senecacollege.ca senecacollege.ca
+nameserver 10.102.20.20
+nameserver 10.101.20.20
+nameserver 10.101.100.41
+******************************************************************
+Installed services currently running:
+UNIT                               LOAD   ACTIVE SUB     DESCRIPTION
+arptables.service                  loaded active exited  Automates a packet filtering firewall with arptables
+auditd.service                     loaded active running Security Auditing Service
+blk-availability.service           loaded active exited  Availability of block devices
+crond.service                      loaded active running Command Scheduler
+dbus.service                       loaded active running D-Bus System Message Bus
+ds_agent.service                   loaded active running Trend Micro Deep Security Agent
+fail2ban.service                   loaded active running Fail2Ban Service
+getty@tty1.service                 loaded active running Getty on tty1
+gssproxy.service                   loaded active running GSSAPI Proxy Daemon
+httpd.service                      loaded active running The Apache HTTP Server
+iptables.service                   loaded active exited  IPv4 firewall with iptables
+irqbalance.service                 loaded active running irqbalance daemon
+kdump.service                      loaded active exited  Crash recovery kernel arming
+kmod-static-nodes.service          loaded active exited  Create list of required static device nodes for the current kernel
+lvm2-lvmetad.service               loaded active running LVM2 metadata daemon
+lvm2-monitor.service               loaded active exited  Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+lvm2-pvscan@8:3.service            loaded active exited  LVM2 PV scan on device 8:3
+NetworkManager-wait-online.service loaded active exited  Network Manager Wait Online
+NetworkManager.service             loaded active running Network Manager
+nslcd.service                      loaded active running Naming services LDAP client daemon.
+ntpd.service                       loaded active running Network Time Service
+polkit.service                     loaded active running Authorization Manager
+postfix.service                    loaded active running Postfix Mail Transport Agent
+rc-local.service                   loaded active exited  /etc/rc.d/rc.local Compatibility
+rhel-dmesg.service                 loaded active exited  Dump dmesg to /var/log/dmesg
+rhel-domainname.service            loaded active exited  Read and set NIS domainname from /etc/sysconfig/network
+rhel-import-state.service          loaded active exited  Import network configuration from initramfs
+rhel-readonly.service              loaded active exited  Configure read-only root support
+rpc-rquotad.service                loaded active running Remote quota server
+rpcbind.service                    loaded active running RPC bind service
+rsyslog.service                    loaded active running System Logging Service
+scvmmguestagent.service            loaded active exited  LSB: Microsoft VMM Agent
+snmpd.service                      loaded active running Simple Network Management Protocol (SNMP) Daemon.
+sshd.service                       loaded active running OpenSSH server daemon
+systemd-binfmt.service             loaded active exited  Set Up Additional Binary Formats
+systemd-journal-flush.service      loaded active exited  Flush Journal to Persistent Storage
+systemd-journald.service           loaded active running Journal Service
+systemd-logind.service             loaded active running Login Service
+systemd-random-seed.service        loaded active exited  Load/Save Random Seed
+systemd-remount-fs.service         loaded active exited  Remount Root and Kernel File Systems
+systemd-sysctl.service             loaded active exited  Apply Kernel Variables
+systemd-tmpfiles-setup-dev.service loaded active exited  Create Static Device Nodes in /dev
+systemd-tmpfiles-setup.service     loaded active exited  Create Volatile Files and Directories
+systemd-udev-trigger.service       loaded active exited  udev Coldplug all Devices
+systemd-udevd.service              loaded active running udev Kernel Device Manager
+systemd-update-utmp.service        loaded active exited  Update UTMP about System Boot/Shutdown
+systemd-user-sessions.service      loaded active exited  Permit User Sessions
+systemd-vconsole-setup.service     loaded active exited  Setup Virtual Console
+tuned.service                      loaded active running Dynamic System Tuning Daemon
+ypbind.service                     loaded active running NIS/YP (Network Information Service) Clients to NIS Domain Binder
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+50 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+******************************************************************
+Installed services not running:
+tmp.mount                                     disabled
+arp-ethers.service                            disabled
+blk-availability.service                      disabled
+chrony-wait.service                           disabled
+chronyd.service                               disabled
+console-getty.service                         disabled
+console-shell.service                         disabled
+cpupower.service                              disabled
+debug-shell.service                           disabled
+ebtables.service                              disabled
+firewalld.service                             disabled
+gssproxy.service                              disabled
+ip6tables.service                             disabled
+iprdump.service                               disabled
+iprinit.service                               disabled
+iprupdate.service                             disabled
+nfs-blkmap.service                            disabled
+nfs-server.service                            disabled
+nfs.service                                   disabled
+nscd.service                                  disabled
+ntpdate.service                               disabled
+plymouth-halt.service                         disabled
+plymouth-kexec.service                        disabled
+plymouth-poweroff.service                     disabled
+plymouth-quit-wait.service                    disabled
+plymouth-quit.service                         disabled
+plymouth-read-write.service                   disabled
+plymouth-reboot.service                       disabled
+plymouth-start.service                        disabled
+postgresql.service                            disabled
+rdisc.service                                 disabled
+rpcbind.service                               disabled
+rsyncd.service                                disabled
+serial-getty@.service                         disabled
+snmptrapd.service                             disabled
+svnserve.service                              disabled
+systemd-bootchart.service                     disabled
+systemd-nspawn@.service                       disabled
+tcsd.service                                  disabled
+udisks2.service                               disabled
+wpa_supplicant.service                        disabled
+cvs.socket                                    disabled
+nscd.socket                                   disabled
+rsyncd.socket                                 disabled
+sshd.socket                                   disabled
+ctrl-alt-del.target                           disabled
+halt.target                                   disabled
+iprutils.target                               disabled
+kexec.target                                  disabled
+machines.target                               disabled
+poweroff.target                               disabled
+reboot.target                                 disabled
+remote-cryptsetup.target                      disabled
+rescue.target                                 disabled
+runlevel0.target                              disabled
+runlevel1.target                              disabled
+runlevel6.target                              disabled
+chrony-dnssrv@.timer                          disabled
+fstrim.timer                                  disabled
+mdcheck_continue.timer                        disabled
+mdcheck_start.timer                           disabled
+mdmonitor-oneshot.timer                       disabled
