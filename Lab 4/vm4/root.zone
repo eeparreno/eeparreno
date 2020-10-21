@@ -1,0 +1,102 @@
+$TTL 1D
+@ SOA eeparreno-rns.sbinalla.com. root.sbinalla.com. (
+						20201013 1D 1D 1D 1H)
+				IN	NS	eeparreno-rns.sbinalla.com.
+eeparreno-rns.sbinalla.com.	IN	A	192.168.24.4
+
+; aaa.com
+aaa.com 			IN	NS 	aman6-pri.aaa.com.
+aaa.com				IN	NS	adu3-pri.aaa.com.
+aaa.com				IN	NS	alalmendarez-pri.aaa.com.
+aman6-pri.aaa.com. 		IN	A 	192.168.19.53
+adu3-pri.aaa.com.		IN	A	192.168.7.53
+alalmendarez-pri.aaa.com.	IN	A	192.168.2.53
+19.168.192.in-addr.arpa.	IN	NS	aman6-pri.aaa.com.
+7.168.192.in-addr.arpa.		IN	NS	adu3-pri.aaa.com.
+2.168.192.in-addr.arpa.		IN	NS	alalmendarez-pri.aaa.com.
+
+; ai.com
+ai.com				IN	NS	algarcia1-pri.ai.com.
+ai.com				IN	NS	iyusuf1-pri.ai.com.
+algarcia1-pri.ai.com.		IN	A	192.168.9.53
+iyusuf1-pri.ai.com.		IN	A	192.168.29.53
+9.168.192.in-addr.arpa.		IN	NS	algarcia1-pri.ai.com.
+29.168.192.in-addr.arpa.	IN	NS	iyusuf1-pri.ai.com.
+
+; aurora-cdt.com
+aurora-cdt.com			IN	NS	tbrecher-pri.aurora-cdt.com.
+aurora-cdt.com			IN	NS	cmascarinas-pri.aurora-cdt.com.
+aurora-cdt.com			IN	NS	drulyov-pri.aurora-cdt.com.
+tbrecher-pri.aurora-cdt.com.	IN	A	192.168.4.53
+cmascarinas-pri.aurora-cdt.com.	IN	A	192.168.20.53
+drulyov-pri.aurora-cdt.com.	IN	A	192.168.27.53
+4.168.192.in-addr.arpa.		IN	NS	tbrecher-pri.aurora-cdt.com.
+20.168.192.in-addr.arpa.	IN	NS	cmascarinas-pri.aurora-cdt.com.
+27.168.192.in-addr.arpa.	IN	NS	drulyov-pri.aurora-cdt.com.
+
+; eh.com
+eh.com				IN	NS	enaypek-pri.eh.com.
+eh.com				IN	NS	dganko-pri.eh.com.
+eh.com				IN	NS	kpathmarak-pri.eh.com.
+enaypek-pri.eh.com.		IN	A	192.168.3.53
+dganko-pri.eh.com.		IN	A	192.168.8.53
+kpathmarak-pri.eh.com.		IN	A	192.168.25.53
+3.168.192.in-addr.arpa.		IN	NS	enaypek-pri.eh.com.
+8.168.192.in-addr.arpa.		IN	NS	dganko-pri.eh.com.
+25.168.192.in-addr.arpa.	IN	NS	kpathmarak-pri.eh.com.
+
+; kgma.tech
+kgma.tech			IN	NS	cde-pano-pri.kgma.tech.
+kgma.tech			IN	NS	hgrewa125-pri.kgma.tech.
+kgma.tech			IN	NS	kgma-pri.kgma.tech.
+kgma.tech			IN	NS	ljrafols-pri.kgma.tech.
+kgma.tech			IN	NS	yzhang689-pri.kgma.tech.
+cde-pano-pri.kgma.tech.		IN	A	192.168.6.53
+hgrewa125-pri.kgma.tech.	IN	A	192.168.10.53
+kgma-pri.kgma.tech.		IN	A	192.168.18.53
+ljrafols-pri.kgma.tech.		IN	A	192.168.26.53
+yzhang689-pri.kgma.tech.	IN	A	192.168.30.53
+6.168.192.in-addr.arpa.		IN	NS	cde-pano-pri.kgma.tech.
+10.168.192.in-addr.arpa.	IN	NS	hgrewa125-pri.kgma.tech.
+18.168.192.in-addr.arpa.	IN	NS	kgma-pri.kgma.tech.
+26.168.192.in-addr.arpa.	IN	NS	ljrafols-pri.kgma.tech.
+30.168.192.in-addr.arpa.	IN	NS	yzhang689-pri.kgma.tech.
+
+; ns.com
+ns.com				IN	NS	chalioua-pri.ns.com.
+ns.com				IN	NS	hjameel1-pri.ns.com.
+ns.com				IN	NS	abdulkarim1-pri.ns.com.
+chalioua-pri.ns.com.		IN	A	192.168.11.53
+hjameel1-pri.ns.com.		IN	A	192.168.14.53
+abdulkarim1-pri.ns.com		IN	A	192.168.1.53
+11.168.192.in-addr.arpa.	IN	NS	chalioua-pri.ns.com.
+14.168.192.in-addr.arpa.	IN	NS	hjameel1-pri.ns.com.
+1.168.192.in-addr.arpa.		IN	NS	abdulkarim1-pri.ns.com.
+
+; ravz.com
+ravz.com			IN	NS	zhonderich-pri.ravz.com.
+ravz.com			IN	NS	rjacinto1-pri.ravz.com.
+ravz.com			IN	NS	vkim11-pri.ravz.com.
+ravz.com			IN	NS	aluk10-pri.ravz.com.
+zhonderich-pri.ns.com.		IN	A	192.168.12.53
+rjacinto1-pri.ns.com.		IN	A	192.168.13.53
+vkim11-pri.ns.com.		IN	A	192.168.15.53
+aluk10-pri.ns.com.		IN	A	192.168.17.53
+12.168.192.in-addr.arpa.	IN	NS	zhonderich-pri.ravz.com.
+13.168.192.in-addr.arpa.	IN	NS	rjacinto1-pri.ravz.com
+15.168.192.in-addr.arpa.	IN	NS	vkim11-pri.ravz.com.
+17.168.192.in-addr.arpa.	IN	NS	aluk10-pri.ravz.com.
+
+; sp.com
+sp.com				IN	NS	eelung-pri.sp.com.
+sp.com				IN	NS	sknasser1-pri.sp.com.
+sp.com				IN	NS	ashahzad6-pri.sp.com.
+sp.com				IN	NS	anguyen83-pri.sp.com.
+eelung-pri.sp.com.		IN	A	192.168.16.53
+sknasser1-pri.sp.com.		IN	A	192.168.21.53
+ashahzad6-pri.sp.com.		IN	A	192.168.28.53
+anguyen83-pri.sp.com.		IN	A	192.168.23.53
+16.168.192.in-addr.arpa.	IN	NS	eelung-pri.sp.com.
+21.168.192.in-addr.arpa.	IN	NS	sknasser1-pri.sp.com.
+28.168.192.in-addr.arpa.	IN	NS	ashahzad6-pri.sp.com.
+23.168.192.in-addr.arpa.	IN	NS	anguyen83-pri.sp.com.
