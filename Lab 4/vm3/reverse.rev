@@ -1,0 +1,13 @@
+$TTL 1D
+@	IN SOA	eeparreno.eeparreno.com. hostmaster.eeparreno.com. (
+					20140520; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	IN NS	eeparreno.com.
+53	IN 	NS	eeparreno-pri.eeparreno.
+253	IN	NS	eeparreno-rns.eeparreno.
+80	IN	PTR	www.eeparreno.
+25	IN	PTR	mail.eeparreno.
+
