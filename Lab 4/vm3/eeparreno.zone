@@ -8,8 +8,8 @@ $TTL    2d
 );
                 IN      NS      eeparreno-pri.eeparreno.com.
                 IN      MX      10 mail.eeparreno.com.
-eeparreno-pri  IN      A       192.168.24.53
-eeparreno-rns	  IN    	A	      192.168.24.253
+eeparreno-pri   IN      A       192.168.24.53
+eeparreno-rns	 IN    	A	      192.168.24.253
 eeparreno-web   IN      A       192.168.24.80
 eeparreno-mail  IN      A       192.168.24.25
 www         	IN	  CNAME	    eeparreno-web
