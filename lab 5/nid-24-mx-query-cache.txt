@@ -1,0 +1,16 @@
+Server:		192.168.24.2
+Address:	192.168.24.2#53
+
+Non-authoritative answer:
+*** Can't find eeparreno.com: No answer
+
+Authoritative answers can be found from:
+.
+	origin = eeparreno-rns.eeparreno.com
+	mail addr = root.eeparreno.com
+	serial = 20201013
+	refresh = 86400
+	retry = 86400
+	expire = 86400
+	minimum = 3600
+
