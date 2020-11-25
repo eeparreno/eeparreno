@@ -1,0 +1,18 @@
+$TTL    2d
+$ORIGIN eeparreno.com.
+@       IN      SOA     eeparreno-pri.eeparreno.com.      hostmaster.eeparreno.com. (
+                2018042901       ; Serial
+                8H      ; Refresh
+                2H      ; Retry
+                1W      ; Expire
+                1D      ; Negative Cache TTL
+);
+	        IN      NS      eeparreno-pri.eeparreno.com.
+		IN  	MX	10 	mail.eeparreno.com.
+eeparreno-pri   IN      A       192.168.24.53
+eeparreno-rns	IN	A	192.168.24.253
+eeparreno-web	IN	A	192.168.24.80
+eeparreno-mail	IN	A	192.168.24.25
+www		IN	CNAME	eeparreno-web
+mail		IN	CNAME	eeparreno-mail
+

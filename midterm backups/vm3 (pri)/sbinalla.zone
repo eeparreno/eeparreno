@@ -1,0 +1,28 @@
+$TTL    2d
+$ORIGIN sbinalla.com.
+@       IN      SOA     eeparreno-pri.sbinalla.com.      hostmaster.sbinalla.com. (
+                2018042901       ; Serial
+                8H      ; Refresh
+                2H      ; Retry
+                1W      ; Expire
+                1D      ; Negative Cache TTL
+);
+	        IN      NS      eeparreno-pri.sbinalla.com.
+		IN 	NS	bbrossard-pri.sbinalla.com.
+		IN	NS	hnnghiem-pri.sbinalla.com.
+		IN  	MX	10 	mail.sbinalla.com.
+eeparreno-pri   IN      A       192.168.24.53
+bbrossard-pri	IN	A	192.168.5.53
+hnnghiem-pri	IN	A	192.168.22.53
+eeparreno-rns	IN	A	192.168.24.253
+bbrossard-rns	IN	A	192.168.5.253
+hnnghiem-rns	IN	A	192.168.22.253
+eeparreno-web	IN	A	192.168.24.80
+bbrossard-web	IN	A	192.168.5.80
+hnnghiem-web	IN	A	192.168.22.80
+eeparreno-mail	IN	A	192.168.24.25
+bbrossard-mail	IN	A	192.168.5.25
+hnnghiem-mail	IN	A	192.168.22.25
+www		IN	CNAME	hnnghiem-web
+mail 		IN	CNAME	bbrossard-mail
+
